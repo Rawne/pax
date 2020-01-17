@@ -1,0 +1,10 @@
+.fullscreen-bg {
+  position: fixed;
+  overflow: hidden;
+  z-index: -100;
+  width: 100%;
+}
+
+.fullscreen-bg__video{
+  width: 100%;
+}

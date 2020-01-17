@@ -1,2 +1,1 @@
-# pax
-website for pax beer
+# PAX!

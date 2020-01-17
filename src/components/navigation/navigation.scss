@@ -1,0 +1,30 @@
+.navigation {
+  position: fixed;
+  display: flex;
+  width: 280px;
+  flex-wrap: wrap;
+  margin: 16px;
+  padding: 8px;
+}
+
+.nav {
+  margin-bottom: 16px;
+  padding-right: 8px;
+  border-right: 3px solid transparent;
+  &:hover {
+    border-right: 3px solid #FFC300;
+  }
+}
+
+.nav-about {
+
+}
+
+.nav-beer {
+
+}
+
+.nav-text {
+  text-decoration: none;
+  position: absolute;
+}
