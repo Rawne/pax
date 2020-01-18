@@ -1,5 +1,5 @@
 .navigation {
-  position: fixed;
+  position: absolute;
   display: flex;
   width: 280px;
   flex-wrap: wrap;
@@ -27,4 +27,9 @@
 .nav-text {
   text-decoration: none;
   position: absolute;
+  left: 30px;
+  text-decoration-color: white;
+  color: white;
+  transform: translateY(300px);
+  font-size: larger;
 }

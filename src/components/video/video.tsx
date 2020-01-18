@@ -1,8 +1,8 @@
 import React from 'react'
-import PaxMp4 from '../../media/pax-hi-res.mp4';
-import PaxOgv from '../../media/pax.ogv';
-import PaxWebm from '../../media/pax.webm';
-import PaxJpg from '../../media/pax.jpg';
+import PaxMp4 from '../../media/pax-web.mp4';
+import PaxOgv from '../../media/pax-web.ogv';
+import PaxWebm from '../../media/pax-web.webm';
+import PaxJpg from '../../media/pax-web.jpg';
 import './video.scss'
 
 interface VideoProps {

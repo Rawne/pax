@@ -14,8 +14,9 @@ const Header = ({ siteTitle }: propTypes) => (
   >
     <div
       style={{
-        left: `35%`,
-        position: `fixed`,
+        left: `50%`,
+        transform: `translateX(-50%)`,
+        position: `absolute`,
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
