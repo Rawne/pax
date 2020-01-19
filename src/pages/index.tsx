@@ -4,13 +4,14 @@ import Layout from '../components/layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
 import Video from '../components/video/video';
-import Navigation from '../components/navigation/navigation';
+import Background from '../components/background/background';
 
 const IndexPage = () => (
   <Layout>
-    <Navigation />
     <SEO title="Home" />
-    <Video />
+    <Background>
+      <Video />
+    </Background>
   </Layout>
 )
 

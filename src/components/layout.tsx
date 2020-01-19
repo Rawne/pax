@@ -33,6 +33,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
+        <Navigation />
         <main>{children}</main>
       </div>
     </>
