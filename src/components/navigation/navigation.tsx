@@ -13,8 +13,8 @@ export default class Navigation extends React.Component<NavigationProps> {
     const { } = this.props;
     return (
       <div className="navigation">
-        <Link className="nav nav-about" to="/about/"><img src={AboutUs}/><span className="nav-text">Over ons</span></Link>
-        <Link className="nav nav-beer" to="/beer/"><img src={OurBeer}/><span className="nav-text">Ons bier</span></Link>
+        <Link className="nav nav-about" to="/about/"><span className="nav-text">Over ons</span></Link>
+        <Link className="nav nav-beer" to="/beer/"><span className="nav-text">Ons bier</span></Link>
       </div>
     );
   }

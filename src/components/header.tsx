@@ -7,21 +7,8 @@ interface propTypes {
 }
 
 const Header = ({ siteTitle }: propTypes) => (
-  <header
-    style={{
-      background: `grey`,
-    }}
-  >
-    <div
-      style={{
-        left: `50%`,
-        transform: `translateX(-50%)`,
-        position: `absolute`,
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+  <header>
+    <div className="header">
       <h1 style={{ margin: 0, width: `300px` }}>
         <Link
           to='/'

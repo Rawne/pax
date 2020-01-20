@@ -3,18 +3,19 @@
 .container {
   display: flex;
 }
-.content {
-  height: 50vw;
-  margin: auto;
-  margin-top: 400px;
-  border-top: 3px solid #ffcb3b;
-  background-color: #fcba03;
-  padding: 16px 300px 16px 300px;
+.header {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
 }
 .full-width {
   width: 100%;
 }
-.pax-header {  
+.pax-header { 
+  text-align: center; 
   color: #C91E07;
 }
 html {
@@ -84,7 +85,6 @@ dfn {
   font-style: italic;
 }
 h1 {
-  text-align: center;
   font-size: 2em;
   margin: 0.67em 0;
 }

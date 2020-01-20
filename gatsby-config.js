@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/pax",
   siteMetadata: {
     title: `Pax bierbrouwerij`,
     description: `Brewing beer, and cooking bitterballs.. What more could you want?`,

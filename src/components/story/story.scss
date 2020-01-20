@@ -1,0 +1,25 @@
+$break-small: 720px;
+$break-tiny: 500px;
+.content {
+  height: 150vh;
+  margin-top: 30vw;
+  border-top: 3px solid #ffcb3b;
+  background-color: #fcba03;
+  padding: 16px 300px 16px 300px;
+  @media screen and (max-width: $break-small) {
+    margin-top: 45vw;
+    padding: 8px 8px 8px 8px;
+  }
+}
+.narrow {
+  @media screen and (max-width: $break-small) {
+    margin-top: 100px;
+  }
+  @media screen and (max-width: $break-tiny) {
+    margin-top: 200px;
+  }
+  padding: 2px;
+  margin-top: -10vw;
+  margin: auto;
+  max-width: 400px;
+}
