@@ -1,6 +1,7 @@
 $break-small: 720px;
 $break-tiny: 500px;
 .content {
+  min-height: 750px;
   height: 150vh;
   margin-top: 30vw;
   border-top: 3px solid #ffcb3b;
